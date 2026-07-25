@@ -142,7 +142,7 @@ localisée sur le territoire de l'Union.
 
 ### Stack Technique et Ressources
 
-- **Composants :** GitHub Actions pour l'orchestration, Hugging Face Datasets (mode chiffré privé) pour le stockage
+- **Composants :** Harness pour l'orchestration, Hugging Face Datasets (mode chiffré privé) pour le stockage
 - forensique, et API Mistral et DeepSeek v4/Llama 4 Scout(à valider en temps voulu) (contexte 1M tokens vs 10M) pour
 - l'analyse des mues sur temps long.
 - **Budget et Effectifs :** Pour être opérationnelle, l'Unité de Sécurité A3 doit disposer d'un effectif de **160 agents** experts en sécurité des réseaux de neurones.
