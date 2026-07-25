@@ -31,9 +31,9 @@
             border-right: 1px solid rgba(255,255,255,0.1);
         }
         .sidebar-header { text-align: center; margin-bottom: 32px; }
-        .sidebar-header .logo { width: 80px; height: 80px; margin: 0 auto 16px; background: linear-gradient(135deg, var(--accent), #00ff88); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; }
-        .sidebar-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; background: linear-gradient(135deg, var(--accent), #00ff88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .sidebar-header .subtitle { font-size: 14px; color: #888; }
+        .sidebar-header .logo-img { width: 80px; height: 80px; margin: 0 auto 16px; object-fit: contain; }
+        .sidebar-header .logo-text { width: 100%; max-width: 200px; margin: 0 auto; object-fit: contain; }
+        .sidebar-header .subtitle { display: none; }
         .toc h2 { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: #888; text-transform: uppercase; letter-spacing: 1px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); }
         .toc ul { list-style: none; }
         .toc li { margin-bottom: 12px; }
@@ -85,8 +85,7 @@
             .container { flex-direction: column; }
             .sidebar { width: 100%; min-width: 100%; height: auto; max-height: none; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); flex-direction: row; padding: 16px; gap: 16px; }
             .sidebar-header { margin-bottom: 0; flex: 1; }
-            .sidebar-header h1 { font-size: 20px; }
-            .sidebar-header .logo { width: 40px; height: 40px; font-size: 16px; margin: 0; }
+            .sidebar-header .logo-img { width: 40px; height: 40px; margin: 0 auto 16px; object-fit: contain; }
             .toc { flex: none; display: flex; align-items: center; }
             .toc h2 { display: none; }
             .toc ul { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -108,9 +107,8 @@
     <div class="container">
         <aside class="sidebar">
             <div class="sidebar-header">
-                <div class="logo">🔍</div>
-                <h1>PolyMolt</h1>
-                <p class="subtitle">Protocole Forensique</p>
+                <img src="logos/polymolt-logo-bois_bg-transparent.png" class="logo-img" alt="Logo PolyMolt">
+                <img src="logos/NomPolymolt-entouré-vegetation.png" class="logo-text" alt="PolyMolt">
             </div>
             <nav class="toc">
                 <h2>Sommaire</h2>
